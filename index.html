@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yousef Hagr | ASP.NET Backend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <div class="logo">Yousef <span>Hagr</span></div>
+
+    <div class="nav-container">
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">Introduction</a>
+            <a href="#services">Services</a>
+            <a href="#">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+    <div class="dropdown">
+        <div class="links">
+            <a href="#home" onclick="cancel()">Home</a>
+            <a href="#skills" onclick="cancel()">Skills</a>
+            <a href="#about" onclick="cancel()">Introduction</a>
+            <a href="#services" onclick="cancel()">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="#contact" onclick="cancel()">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <div class="main-container">
+        <div class="content">
+            <h1>HI I'm <span>Yousef</span></h1>
+
+            <div class="typewriter">
+                I'm a <span class="typewriter-text"></span><label>|</label>
+            </div>
+
+            <p>
+                Backend Developer specialized in ASP.NET Core.
+                I build secure, scalable and high-performance web applications.
+            </p>
+
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <button>Download CV</button>
+        </div>
+
+        <div class="image">
+            <img src="main.png" alt="Yousef Hagr">
+            <!-- <img src="v6.jpg" alt="Yousef Hagr"> -->
+        </div>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="split-section">
+    <div class="split-container">
+        <div class="split-content">
+            <div class="cards">
+                <div class="card">ASP.NET Core</div>
+                <div class="card">C#</div>
+                <div class="card">Entity Framework</div>
+                <div class="card">SQL Server</div>
+                <div class="card">REST APIs</div>
+                <div class="card">Authentication & JWT</div>
+            </div>
+        </div>
+        <div class="split-title">SKILLS</div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="split-section dark">
+    <div class="split-container">
+        <div class="split-content">
+            <div class="info-card">
+                <p>
+                    I am a passionate Backend Developer focused on building robust 
+                    server-side applications using ASP.NET Core.
+                    I love clean architecture, API development, and database optimization.
+                </p>
+            </div>
+        </div>
+        <div class="split-title">ABOUT</div>
+    </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="split-section">
+    <div class="split-container">
+        <div class="split-content">
+            <div class="cards">
+                <div class="card">API Development</div>
+                <div class="card">Database Design</div>
+                <div class="card">Authentication Systems</div>
+                <div class="card">Backend Optimization</div>
+            </div>
+        </div>
+        <div class="split-title">SERVICES</div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="split-section dark">
+    <div class="split-container">
+        <div class="split-content">
+            <div class="info-card">
+                <div class="contact-links">
+
+    <a href="mailto:youssef@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+    </a>
+
+    <a href="https://www.facebook.com/YOUR_USERNAME" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+        Facebook
+    </a>
+
+    <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+    </a>
+
+    <a href="https://github.com/youssefhagar" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+    </a>
+
+    <a href="https://wa.me/201119246830" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+        WhatsApp
+    </a>
+
+</div>
+            </div>
+        </div>
+        <div class="split-title">CONTACT</div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
